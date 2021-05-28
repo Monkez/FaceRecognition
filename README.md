@@ -1,15 +1,15 @@
 # FaceRecognition
 Ubuntu 18.04
-## 1. Create Anaconda environment (optional)
+### 1. Create Anaconda environment (optional)
     conda create -n Camera_env python=3.6.12
-## 2. install python libs
+### 2. install python libs
     pip install numpy==1.19.2
     pip install matplotlib==3.3.4
     pip install opencv-contrib-python==4.5.2
     pip install tensorflow==2.3.0
     pip install face_recognition
     
-## 3. Install cuda toolkit and cudnn for nvidia gpu support (cái này em ko nhớ rõ cách cài đặt lắm, anh thử theo hướng dẫn này xem ok ko ạ)
+### 3. Install cuda toolkit and cudnn for nvidia gpu support (cái này em ko nhớ rõ cách cài đặt lắm, anh thử theo hướng dẫn này xem ok ko ạ)
     * install cuda toolkit
     wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin
     sudo mv cuda-ubuntu1804.pin /etc/apt/preferences.d/cuda-repository-pin-600
@@ -33,9 +33,8 @@ Ubuntu 18.04
         
         You can see name: "/device:GPU:0" in devices list
         
-## 4. Install jupyter and run Demo.ipynb notebook
+### 4. Install jupyter and run Demo.ipynb notebook
 
 the project structure is:
-.
     ├── users                  # Users data
     ├── export_models          # Deep learning modules and pretrained model
