@@ -9,7 +9,7 @@ Ubuntu 18.04
     pip install tensorflow==2.3.0
     pip install face_recognition
     
-## 3. Install cuda toolkit and cudnn for nvidia gpu support
+## 3. Install cuda toolkit and cudnn for nvidia gpu support (cái này em ko nhớ rõ cách cài đặt lắm, anh thử theo hướng dẫn này xem ok ko ạ)
     * install cuda toolkit
     wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin
     sudo mv cuda-ubuntu1804.pin /etc/apt/preferences.d/cuda-repository-pin-600
@@ -36,18 +36,6 @@ Ubuntu 18.04
 ## 4. Install jupyter and run Demo.ipynb notebook
 
 the project structure is:
------FaceRecognition
-        ---export_models/
-        ----users/
-             ----0001/
-                 info.txt
-                 ---- 1.jpg
-                 ---- 2.jpg
-                 -----3.jpg
-                 ......
-             ----0002/
-             ----0003/
-             ----0004/
-             ........
-
-The data of users are stored in users/ folder.
+.
+    ├── users                  # Users data
+    ├── export_models          # Deep learning modules and pretrained model
