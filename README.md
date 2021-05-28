@@ -34,7 +34,3 @@ Ubuntu 18.04
         You can see name: "/device:GPU:0" in devices list
         
 ### 4. Install jupyter and run Demo.ipynb notebook
-
-the project structure is:
-    ├── users                  # Users data
-    ├── export_models          # Deep learning modules and pretrained model
