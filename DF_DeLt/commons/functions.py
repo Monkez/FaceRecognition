@@ -12,7 +12,7 @@ import base64
 import multiprocessing
 import subprocess
 import bz2
-from deepface.commons import distance
+from DF_DeLt.commons import distance
 from mtcnn import MTCNN #0.1.0
 
 import tensorflow as tf

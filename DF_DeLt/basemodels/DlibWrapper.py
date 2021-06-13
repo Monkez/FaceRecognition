@@ -1,4 +1,4 @@
-from deepface.basemodels.DlibResNet import DlibResNet
+from DF_DeLt.basemodels.DlibResNet import DlibResNet
 
 def loadModel():
 	return DlibResNet()

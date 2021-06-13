@@ -4,7 +4,7 @@ import os
 import cv2
 import pandas as pd
 
-from deepface.detectors import OpenCvWrapper
+from DF_DeLt.detectors import OpenCvWrapper
 
 def build_model():
 

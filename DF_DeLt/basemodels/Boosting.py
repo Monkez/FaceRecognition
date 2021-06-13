@@ -1,11 +1,11 @@
-from deepface import DeepFace
+from DF_DeLt import DeepFace
 from tqdm import tqdm
 import os
 from os import path
 from pathlib import Path
 import numpy as np
 import gdown
-from deepface.commons import functions, distance as dst
+from DF_DeLt.commons import functions, distance as dst
 
 def loadModel():
 	

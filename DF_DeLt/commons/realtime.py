@@ -9,10 +9,10 @@ import re
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-from deepface import DeepFace
-from deepface.extendedmodels import Age
-from deepface.commons import functions, realtime, distance as dst
-from deepface.detectors import OpenCvWrapper
+from DF_DeLt import DeepFace
+from DF_DeLt.extendedmodels import Age
+from DF_DeLt.commons import functions, realtime, distance as dst
+from DF_DeLt.detectors import OpenCvWrapper
 
 def analysis(db_path, model_name, distance_metric, enable_face_analysis = True
 				, source = 0, time_threshold = 5, frame_threshold = 5):

@@ -13,9 +13,9 @@ from tqdm import tqdm
 import pickle
 import time
 
-from deepface.basemodels import VGGFace, OpenFace, Facenet, FbDeepFace, DeepID, DlibWrapper, ArcFace, Boosting
-from deepface.extendedmodels import Age, Gender, Race, Emotion
-from deepface.commons import functions, realtime, distance as dst
+from DF_DeLt.basemodels import VGGFace, OpenFace, Facenet, FbDeepFace, DeepID, DlibWrapper, ArcFace, Boosting
+from DF_DeLt.extendedmodels import Age, Gender, Race, Emotion
+from DF_DeLt.commons import functions, realtime, distance as dst
 
 import tensorflow as tf
 tf_version = int(tf.__version__.split(".")[0])
